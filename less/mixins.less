@@ -1,1 +1,16 @@
 // Mixins Here
+.displayFlex(@justify, @direction){
+    display: flex;
+    justify-content: @justify;
+    flex-direction: @direction;
+    text-align: center;
+}
+
+.fontWeight(){
+    font-weight: bolder;
+}
+
+.button(@color, @background){
+    color: @color;
+    background-color: @background;
+}
