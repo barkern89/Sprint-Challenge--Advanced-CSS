@@ -48,6 +48,8 @@
 
   .visit-planets {
     padding: 15px;
+    color: @shuttle-gray;
+    .fontWeight;
 
     h3 {
       margin-top: 11px;
@@ -64,9 +66,18 @@
     padding: 50px 60px;
     display: flex;
     justify-content: center;
+    @media(max-width: 500px) {
+      display: flex;
+      flex-direction: column-reverse;
+    }
 
     .walk-text {
       width: 50%;
+      .fontWeight;
+      color: @shuttle-gray;
+      @media(max-width: 500px){
+        
+      }
 
       h3 {
         margin-bottom: 10px;
@@ -77,6 +88,14 @@
       }
 
       .btn {
+        button {
+          .button(@porcelain, @btn-bg-color);
+          height: 50px;
+          width: 100px;
+          border-radius: 10px;
+          font-size: 1.7rem;
+          .fontWeight;
+        }
       }
     }
 
