@@ -171,6 +171,13 @@ footer {
   align-items: center;
   font-weight: bolder;
 }
+.home .intro {
+  color: #5E6164;
+  font-weight: bolder;
+}
+.home .intro img {
+  border-radius: 5px;
+}
 .home .intro h2 {
   padding: 15px;
 }
